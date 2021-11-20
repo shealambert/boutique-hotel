@@ -1,0 +1,564 @@
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+
+header {
+  background-color: #21291f;
+  padding:1.5rem;
+  font-family: eb-garamond, serif;
+}
+
+
+header .logo{
+  font-family: haboro-condensed, serif;
+  font-size: 2rem;
+  color: #FFE05F;
+}
+
+header .button{
+  margin: 0;
+  background-color: #21291f;
+  border-color: #FFE05F;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color:#C1D5BC;
+  border-color:#C1D5BC;
+  color: #000;
+  
+}
+
+
+header .nav{
+  color: #fff;
+  font-size: 1rem;
+}
+
+header .nav:hover {
+  color: #FFE05F;
+}
+
+
+@media screen and (min-width: 40em){
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+  }
+
+  header .logo{
+    font-size: 3rem;
+  }
+
+}
+
+main h1, h2, p{
+  font-family: eb-garamond, serif;
+  text-align: center;
+}
+
+
+.menu-link {
+  color: #fff;
+}
+
+.menu-link:hover {
+  color: #FFE05F;
+}
+
+.reveal .nav{
+  margin: 0;
+}
+
+.reveal a{
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.reveal a:hover{
+  color: #FFE05F;
+}
+
+.reveal .button{
+  padding: 1rem;
+  background-color: #21291f;
+  border-color: #FFE05F;
+}
+
+
+@media screen and (min-width: 40em){
+  .hero{
+    margin-top: 120px;
+  }
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero .grid-x{
+  margin:0;
+}
+
+.layered-text{
+  display: grid;
+  place-items: center;
+}
+
+.layered-text * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+.layered-text img{
+  height: 100%;
+}
+
+.layered-text .color-block {
+  background-color:rgba(0,0,0,.4);
+  width: 100%;
+  height: 100%;
+}
+
+.inner-text{
+  text-align: center;
+}
+
+
+.inner-text h1{
+  font-family: eb-garamond, serif;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.inner-text a{
+  font-family: eb-garamond, serif;
+  background-color: #21291f;
+  border-color: #FFE05F;
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 40em){
+  .inner-text h1{
+    font-size: 4rem;
+  }
+
+  .inner-text a{
+    font-size: 1.5rem;
+  }
+
+  .inner-text{
+    width: 60%;
+  }
+
+}
+
+
+
+.card {
+  background-color: #374534;
+  align: center;
+  margin: 0;
+}
+
+.cardtext {
+  color: #fff;
+  padding: 1rem;
+}
+
+.cardtext h1 {
+  color: #fff;
+}
+
+.rooms.cardtext h2 {
+  font-size: 1.5rem;
+}
+
+.rooms .cardtext h1 {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 40em){
+
+  .rooms .cardtext h1 {
+    font-size: 2.5rem;
+  }
+
+  .rooms .cardtext p {
+    font-size: 1.5rem;
+  }
+
+  .rooms h1{
+    padding-top: 2rem;
+  }
+}
+
+.rooms{
+  padding: 2rem;
+}
+
+.rooms h1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+.rooms h2{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.rooms .card {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 40em){
+
+  .rooms h1{
+    font-size: 3rem;
+  }
+
+  .rooms h2{
+    font-size: 2rem;
+  }
+
+}
+
+
+.reservations {
+  background-color: #C1D5BC;
+  padding: 2rem;
+}
+
+.reservations .table{
+  backround-color: #C1D5BC;
+}
+
+.reservations h1{
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+.reservations h2{
+  font-size: 1.25rem;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+
+.reservations thead{
+  background-color: transparent;
+  border: 0;
+}
+
+.reservations thead th{
+  font-family: eb-garamond, serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0;
+  padding-top: 0.5rem;
+}
+
+.reservations th input{
+  margin-bottom: 0;
+}
+
+.reveal{
+  background-color: #21291f;
+  color: #fff;
+  border-color: #FFE05F;
+  font-family: eb-garamond, serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+
+.reveal h1{
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.reveal h2{
+  font-size: 2rem;
+}
+
+
+.reservations th .button{
+  height: 2.4375rem;
+  background-color: #21291f;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+
+}
+
+.reservations th .button:hover {
+  color: #fff;
+}
+
+
+@media screen and (min-width: 40em){
+
+  .reservations h1{
+    font-size: 3rem;
+  }
+
+  .reservations h2{
+    font-size: 2rem;
+  }
+
+  .reservations thead th{
+    font-size: 1rem;
+  }
+
+  .reservations th .button{
+    font-size: 1rem;
+  }
+}
+
+
+
+.activities {
+  padding: 2rem;
+}
+
+.activities h1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+.activities h2{
+  font-size: 1.5rem;
+}
+
+.activities .orbit-wrapper{
+  padding: 2rem;
+}
+
+.activities .activities-text{
+  background-color: #374534;
+  padding: 2rem;
+}
+
+.activities .orbit-slide{
+  color: #fff;
+}
+
+.activities .orbit-slide h1{
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 0;
+}
+
+.activities .orbit-slide p{
+  font-size: 1rem;
+}
+
+.activities .orbit-slide img{
+  width: 100%;
+}
+
+
+@media screen and (min-width: 40em){
+
+  .activities h1{
+    font-size: 3rem;
+  }
+
+  .activities  h2{
+    font-size: 2rem;
+  }
+
+  .activities .orbit-slide h1{
+    padding-top: 5rem;
+    font-size: 3rem;
+  }
+
+  .activities .orbit-slide p{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+.resturant{
+  background-color: #9ba29a;
+  padding: 2rem;
+}
+
+.resturant h1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+.resturant h2{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.resturant .card {
+  margin-bottom: 2rem;
+  boarder: 0;
+}
+
+.resturant .card h1{
+  padding-top: 0;
+}
+
+.resturant .cardtext h1 {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 40em){
+
+  .resturant h1{
+    font-size: 3rem;
+  }
+
+  .resturant h2{
+    font-size: 2rem;
+  }
+
+  .resturant .cardtext h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+footer {
+  background-color: #21291f;
+  padding: 3rem;
+}
+
+footer .logo {
+  font-family: haboro-condensed, serif;
+  font-size: 3rem;
+  color: #FFE05F;
+  display: inline-block; 
+  margin-bottom: 3rem;
+}
+
+footer .menu {
+  color: #fff;
+  font-size: 1rem;
+  font-family: eb-garamond, serif;
+  text-align: left;
+}
+
+footer a {
+  color:  #fff;
+}
+
+footer .menu a{
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+footer .menu.social a{
+  margin-right: 1rem;
+}
+
+footer a:hover {
+  color: #FFE05F;
+
+}
+
+footer .contact h1 {
+  color: #fff;
+  font-size: 1rem;
+  font-family: eb-garamond, serif;
+  text-align: left;
+ 
+}
+
+footer .contact h2 {
+  color: #fff;
+  text-align: left;
+  font-family: eb-garamond, serif;
+  font-size: 1rem;
+  
+}
+
+footer address {
+  font-family: eb-garamond, serif;
+  font-size: 1rem;
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+ 
+}
+
+footer .menu .button{
+  background-color: #21291f;
+  border-color: #FFE05F;
+  color: #fff;
+  font-family: eb-garamond, serif;
+  font-size: 0.75rem;
+  display: inline-block;
+}
+
+footer .menu .button:hover{
+  background-color:#C1D5BC;
+  border-color:#C1D5BC;
+  color: #000; 
+}
+
+@media screen and (min-width: 40em){
+
+  footer .menu{
+    font-size: 2rem;
+  }
+
+  footer .contact h1 {
+    font-size: 2rem;
+  }
+
+   footer .contact h2 {
+    font-size: 2rem;
+  }
+
+  footer address {
+    font-size: 2rem;
+  }
+
+  footer .menu .button {
+    font-size: 2rem;
+  }
+
+}
+
+
+
+
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}

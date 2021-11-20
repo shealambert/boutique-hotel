@@ -1,0 +1,424 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Forrest Hotel</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/nbf2bse.css">
+
+    <script src="https://kit.fontawesome.com/36ee58c826.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- place your code starting here -->
+  <header>
+
+    <div class="grid-container">
+    <div class="grid-x align-middle grid-margin" data-magellan data-offset="90">
+
+      <div class="cell small-8 show-for-small-only text-left">
+        <a class="logo" href="#">Golden Forrest</a>
+      </div>
+
+      <div class=" cell small-4 show-for-small-only text-right">
+        <a href="#" data-open="main-menu" class="menu-link">
+          <i class="fas fa-bars"></i> 
+        </a>
+      </div>
+
+     
+      
+      <div class="cell medium-6 show-for-medium">
+        <a class="logo" href="#">Golden Forrest</a>
+      </div>
+
+      <div class="cell medium-1 show-for-medium">
+        <a class="nav" href="#rooms">Rooms</a>
+      </div>
+
+      <div class="cell medium-1 show-for-medium">
+        <a class="nav" href="#">Services</a>
+      </div>
+
+      <div class="cell medium-1 show-for-medium">
+        <a class="nav" href="#activities">Activities</a>
+      </div>
+
+      <div class="cell medium-1 show-for-medium">
+        <a class="nav" href="#resturant">Dining</a>
+      </div>
+
+      <div class="cell medium-2 show-for-medium">
+         <a href="#reservations" class="button">Book Now</a>
+      </div>
+    </div>
+  </div>
+
+  </header>
+
+  <main>
+
+    <div class="reveal show-for-small-only" id="main-menu" data-reveal>
+      <nav>
+        <ul style="list-style-type: none;">
+          <li><a class="nav" href="#rooms">Rooms</a></li>
+          <li><a class="nav" href="#">Services</a></li>
+          <li><a class="nav" href="#activities">Activities</a></li>
+          <li><a class="nav" href="#resturant">Dining</a></li>
+          <li><a href="#reservations" class="button">Book Now</a></li>
+        </ul>
+      </nav>
+       
+       <button class="close-button" data-close aria-label="Close modal"
+       type="button"><i class="fas fa-times"></i></button>
+     </div>
+
+
+    <section class="hero">
+      <div class="grid-x">
+        <div class="cell">
+
+          <div class="layered-text show-for-medium">
+            <img src="img/Hero.jpg">
+
+            <div class="color-block"></div>
+            
+              <div class="inner-text">
+              <h1>
+                Escape from reality and immerse yourself in the outdoors. 
+              </h1>
+
+              <div class="cell medium-2">
+                <a href="#reservations" class="button">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="layered-text show-for-small-only">
+            <img src="img/Hero_2.jpg">
+
+            <div class="color-block"></div>
+            
+              <div class="inner-text">
+              <h1>
+                Escape from reality and immerse yourself in the outdoors. 
+              </h1>
+
+              <div class="cell medium-2">
+                <a href="#reservations" class="button">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="rooms" class="rooms" data-magellan-target="rooms">
+      <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell">
+            <h1>Rooms</h1>
+            <h2>Each room comes with the choice of a balcony and being electronic free.</h2>
+          </div>
+        </div>
+
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-offset-1 medium-5">
+        
+          <div class="card">
+
+            <img src="img/King_bed.jpg">
+
+            <div class="cardtext">
+
+              <a href="#">
+                <h1>1 King Bed</h1>
+              </a>
+
+              <p>Includes 1 king size bed, full bathroom, and choice of other amenities</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cell medium-5">
+        
+          <div class="card">
+
+            <img src="img/Queen_bed.jpg">
+
+            <div class="cardtext">
+
+              <a href="#">
+                <h1>2 Queen Beds</h1>
+              </a>
+
+              <p>Includes 2 queen size beds, full bathroom, and choice of other amenities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <section id="reservations" class="reservations" data-magellan-target="reservations">
+       <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell">
+            <h1>Reservations</h1>
+            <h2>See a room you like? Make a reservation now.</h2>
+          </div>
+        </div>
+
+      
+        <div class="grid-x">
+          <div class="cell">
+            <table class="table">
+              <thead>
+                <tr class="grid-x align-bottom">
+                  <th class="cell medium-3">Arrival Date:
+                    <input type="text" class="span2" value="" id="dpd1">
+                  </th>
+                  <th class="cell medium-3">Departure Date:
+                    <input type="text" class="span2" value="" id="dpd2">
+                  </th>
+                  <th class="cell medium-3">Type of Room:
+                    <input type="text" class="span2" value="" id="dpd3">
+                  </th>
+                  <th class="cell medium-3">
+                    <input type="submit" class="submit button radius small" value="Book Now" data-open="confirmation-overlay">
+                  </th>
+                </tr>   
+              </thead>
+            </table>
+          </div>
+        </div>
+
+      <div id="confirmation-overlay" class="reveal" data-reveal>
+        <div class="grid-x" data-offset="90">
+          <div class="cell large">
+            <div class="overlay">
+              <h1>Success</h1>
+              <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+            </div>
+          </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+      </div>
+    </div>
+
+    </section>
+
+    <section id="activities" class="activities" data-magellan-target="activities">
+      <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell">
+            <h1>Outdoor Activities</h1>
+            <h2>The outdoors provides the perfect space for many enjoyable activities.</h2>
+          </div>
+        </div>
+
+
+        <div class="grid-x">
+          <div class="cell">
+            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+              <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                </div>
+                <ul class="orbit-container">
+                  <li class="is-active orbit-slide">
+                    <figure class="orbit-figure">
+                      
+                      <div class="grid-container">
+                      <div class="grid-x">
+                        <div class="cell activities-text medium-6 small-order-2 medium-order-1">
+                          <h1>Hammocks</h1>
+                          <p>Discover the beauty of the outdoors while swinging in a hammock. The trees provide stability and shade, while the hammock provides the perfect place for relaxation.</p>
+                        </div>
+
+                        <div class="cell medium-6 small-order-1 medium-order-2">
+                          <img src="img/Hammock.jpg">
+                        </div>
+                      </div>
+                      </div>
+
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+
+                      <div class="grid-container">
+                      <div class="grid-x">
+                        <div class="cell activities-text medium-6 small-order-2 medium-order-1">
+                          <h1>Bonfires</h1>
+                          <p>Wind down at night by a bonfire. Keep warm, while enjoying the fresh outdoors. There are several bonfire locations, so each group of guest can have their own.
+                          </p>
+                        </div>
+
+                        <div class="cell medium-6 small-order-1 medium-order-2">
+                          <img src="img/Bonfire.jpg">
+                        </div>
+                      </div>
+                      </div>
+
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+
+                      <div class="grid-container">
+                      <div class="grid-x">
+                        <div class="cell activities-text medium-6 small-order-2 medium-order-1">
+                          <h1>Lake</h1>
+                          <p>Take advantage of the local freshwater lake. Go swimming on summer days and watch the sunrise and sunset over the lake year round. 
+                          </p>
+                        </div>
+
+                        <div class="cell medium-6 small-order-1 medium-order-2">
+                          <img src="img/Lake.jpg">
+                        </div>
+                      </div>
+                      </div>
+
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+              <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0">
+                  <span class="show-for-sr">First slide details.</span>
+                  <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+                </button>
+                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+
+    <section id="resturant" class="resturant" data-magellan-target="resturant">
+      <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell">
+            <h1>Woodlands Bistro</h1>
+            <h2>Visit our restaurant location or we will come to you.</h2>
+          </div>
+        </div>
+
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-4">
+          
+            <div class="card">
+
+              <img src="img/Room_service.jpg">
+
+              <div class="cardtext">
+
+                <a href="#">
+                  <h1>Room Service</h1>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="cell medium-4">
+          
+            <div class="card">
+
+              <img src="img/Dining_in.jpg">
+
+              <div class="cardtext">
+
+                <a href="#">
+                  <h1>Dining In</h1>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cell medium-4">
+          
+            <div class="card">
+
+              <img src="img/Picnic.jpg">
+
+              <div class="cardtext">
+
+                <a href="#">
+                  <h1>Picnic</h1>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="grid-container">
+    <div class="grid-x">
+      <div class="cell text-center">
+        <a class="logo" href="#">Golden Forrest</a>
+      </div>
+    </div>
+
+    <div class="grid-x">
+      <div class="cell medium-2 medium-offset-4 small-6 ">
+        <ul class="menu vertical">
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#resturant">Dining</a></li>
+          <li><a href="#reservations" class="button">Book Now</a></li>
+        </ul>
+      </div>
+
+      <div class="contact cell medium-3 medium-offset-1 small-6">
+        <h1>Contact Us</h1>
+        <address>24 Pine Road, Meredith, NH 03253</address>
+        <h2>(603) 724-6592</h2>
+        <ul class="social menu">
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
